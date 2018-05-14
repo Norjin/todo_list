@@ -1,0 +1,42 @@
+<!Doctype>
+<html>
+    <head>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <div class="l-container">
+            <div class="l-section" id="l-new-todo">
+                <h3>Add To-do</h3>
+                <div class="l-input">
+                    <input type="text" id="new-item" placeholder="New To-do" autofocus>
+                    <input type="number" id="new-priority" placeholder="Assign priority">
+                    <button id="submit">Add</button>
+                </div>
+            </div>
+
+            <div class="l-todo-list l-section">
+                <h3>To-do List <button id="sort">Sort</button></h3>
+                <ul id="todo-list" class="todo-list">
+                </ul>
+            </div>
+            <div class="l-section">
+                <h3>Compeleted List</h3>
+                <ul id="completed-list">
+                </ul>
+            </div>
+            
+        </div>
+
+        <script src="script.js"></script>
+        
+    </body>
+    <footer>
+        
+    </footer>
+</html>

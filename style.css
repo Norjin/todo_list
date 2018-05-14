@@ -1,0 +1,61 @@
+body {
+    background: #eee;
+    font-size: 16px;
+}
+input {
+    padding: 5px 10px;
+}
+button {
+    padding: 5px 10px;
+    border-color: transparent;
+    background: #000;
+    color: #fff;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    position: relative;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background: #eee;
+}
+ul li i {
+    margin-right: 10px;
+}
+ul li .index {
+    float: right;
+}
+
+.l-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    background : #fff;
+}
+.l-section {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.l-input {
+    display: flex;
+}
+.l-todo-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.todo-list li:hover {
+    background: #000;
+    color: #eee;
+
+}
+.completed {
+    text-decoration-line: line-through;
+    color: #aaa;
+}
+#new-item {
+    flex-grow: 1;
+}
+#sort {
+    float: right;
+}
